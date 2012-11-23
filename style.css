@@ -1,0 +1,68 @@
+.coverjs-report h1 {
+	margin: 0;
+	margin-top: 15px;
+	font-size: 1em;
+	font-weight: 200;
+}
+.coverjs-report ul {
+	margin: 0;
+	padding: 0;
+}
+.coverjs-report li {
+	list-style: none;
+	margin-left: 15px;
+}
+.coverjs-report h2 {
+	margin: 0;
+	font-size: 12px;
+	font-weight: normal;
+}
+.coverjs-report pre {
+	display: inline-block;
+	font: 12px/1.5 monaco, monospace;
+	margin: 5px;
+	padding: 15px;
+	border: 1px solid #eee;
+	border-bottom-color: #ddd;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0 1px 3px #eee;
+	-moz-border-radius: 3px;
+	-moz-box-shadow: 0 1px 3px #eee;
+}
+.coverjs-report .error {
+	background: #B94A48;
+	color: white;
+}
+.coverjs-report .count {
+	font-weight: bold;
+}
+.coverjs-report .pass > .count {
+	background: #00d6b2;
+	border-radius: 3px;
+}
+.coverjs-report .error > .count {
+	color: white;
+}
+
+.coverjs-report .low {
+	color: #c00;
+}
+
+.coverjs-report .low::before {
+	content: '✖';
+	font-size: 12px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	color: #c00;
+}
+
+
+.coverjs-report .ok::before {
+	content: '✓';
+	font-size: 12px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	color: #00d6b2;
+}
