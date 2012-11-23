@@ -33,7 +33,9 @@ module.exports = {
 // cover-my-client-tests.js
 require("./my-client-tests");
 
-require("cover-loader").reportHtml();
+after(function() {
+	require("cover-loader").reportHtml();
+});
 ```
 
 See [the-big-test](https://github.com/webpack/the-big-test) for an example.

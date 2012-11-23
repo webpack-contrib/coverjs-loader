@@ -76,7 +76,7 @@ HTMLFileReporter.prototype.report = function() {
 		this.total++;
 		if (count) this.pass++;
 		else this.error++;
-		
+
 		var start = range[0];
 		while(/^[\t ]$/.test(codez[start-1])) start--;
 		codez[start] = this.generateOpen(count) + codez[start];
