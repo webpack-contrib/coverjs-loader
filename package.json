@@ -1,17 +1,16 @@
 {
 	"name": "coverjs-loader",
-	"version": "0.1.1",
+	"version": "0.5.0",
 	"author": "Tobias Koppers @sokra",
 	"description": "coverjs loader module for webpack",
 	"dependencies": {
-		"loader-utils": "0.1.x",
-		"coverjs": "0.0.11-alpha"
+		"loader-utils": "0.2.x",
+		"coverjs": "0.0.14"
 	},
 	"licenses": [
 		{
 			"type": "MIT",
 			"url": "http://www.opensource.org/licenses/mit-license.php"
 		}
-	],
-	"license": "MIT"
+	]
 }
