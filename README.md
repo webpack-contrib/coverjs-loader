@@ -2,11 +2,11 @@
 
 ## Usage
 
-``` javascript
+``` sh
 webpack-dev-server "mocha!./cover-my-client-tests.js" --options webpackOptions.js
 ```
 
-``` javascript
+```js
 // webpackOptions.js
 module.exports = {
 	// your webpack options
@@ -29,7 +29,7 @@ module.exports = {
 }
 ```
 
-``` javascript
+```js
 // cover-my-client-tests.js
 require("./my-client-tests");
 
